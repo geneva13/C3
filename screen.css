@@ -1,4 +1,90 @@
-/* Add screen styles below */
-a.active {
+body {
+    background-color: rgb(32, 27, 44);
+    margin: 0;
+        font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+h1 {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 0; 
+}
+
+nav ul {
+    display: flex; 
+    list-style-type: none; 
+    padding: 0; 
+}
+
+nav ul li {
+    margin-left: 10px; 
+}
+
+nav ul li a {
+    background-color: aliceblue;
+    padding: 10px;
+    text-decoration: none; 
+    color: black; 
+}
+
+nav ul li a.active {
     font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    color: azure;
+}
+
+.info {
+    background-color: rgb(236, 233, 240);
+    margin-top: 20px; 
+}
+
+.tg  {
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td{
+    border-style: solid;
+    border-width: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 20px 10px;
+    word-break: normal;
+}
+
+.tg th{
+    border-style: solid;
+    border-width: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 20px 10px;
+    word-break: normal;
+}
+
+.tg .tg-baqh{
+    text-align: center;
+    vertical-align: top;
+}
+
+.tg .tg-0lax{
+    text-align: left;
+    vertical-align: top;
+}
+
+.leftimage {
+    align-items: left;
 }
